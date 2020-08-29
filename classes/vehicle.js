@@ -43,6 +43,7 @@ class Vehicle{
                 tools.printAttr("", this.price, "\n", tools.formatMoney);
                 break;
             default: 
+                console.warn("Vehicle.print(): Formato de impresion no especificado!");
                 break;
         }
         

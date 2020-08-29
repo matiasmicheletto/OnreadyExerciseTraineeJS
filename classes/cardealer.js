@@ -32,14 +32,6 @@ class CarDealer {
         
     }
 
-    printAll(vehicles){
-        // Imprime lista de vehiculos en formato largo
-
-        this.list.forEach(vehicle => {
-            vehicle.print(Vehicle.printFormat.LONG);
-        });
-    }
-
     findInList(key){
         // Busca la clave "key" entre todos los atributos y devuelve la lista de matches
 
