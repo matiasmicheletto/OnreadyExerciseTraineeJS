@@ -1,4 +1,4 @@
-# Ejercicio Onready
+# Ejercicio Trainee JS -- Onready
 
 
 ## Consigna
@@ -38,16 +38,16 @@ La solución debe cumplir con los siguientes requisitos:
 
 
 
-
-## Instrucciones
-
-Ejecutar con
-
-```
-node index.js
-```
-
-
-
 ## Documentación
 
+### Estructura del proyecto
+
+```
+src
+ │   index.js    # Punto de entrada.
+ └───classes     # Clases para modelar vehículos y concesionarios.
+ └───data        # Bases de datos con listas de vehículos.
+ └───tools       # Métodos generales
+```
+
+Desarrollado con NodeJS v11.15.0
